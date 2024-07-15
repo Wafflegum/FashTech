@@ -1,0 +1,20 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    padding: 0 5em 0 5em;
+}
+
+#navigations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#browse {
+    display: flex;
+}

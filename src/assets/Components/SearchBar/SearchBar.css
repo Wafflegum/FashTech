@@ -1,0 +1,76 @@
+:root {
+    --outline: rgb(218, 218, 218);
+    --focused-outline: rgb(228, 228, 228);
+}
+
+[theme='dark'] {
+    --outline: rgba(26, 36, 46, 0.247);
+    --focused-outline: rgba(26, 36, 46, 0.8);
+}
+
+form {
+    height: 2.8em;
+    width: 30em;
+
+    border-radius: 5em;
+
+    outline: 0.3vh solid var(--outline);
+
+    padding: 0.8em 1.5em 0.8em 1.5em;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 11;
+}
+
+form:focus-within {
+    outline: 0.2vh solid var(--focused-outline);
+}
+
+.searchBar {
+    flex: 1 1 95%;
+    width: 80%;
+    height: 100%;
+
+    border: 0;
+    outline: 0;
+
+    color: inherit;
+    background: none;
+
+    font-size: inherit;
+    font-family: inherit;
+}
+
+.searchBtn {
+    flex: 1 1 5%;
+    height: 100%;
+    border: 0;
+    outline: 0;
+
+    padding: 0;
+
+    cursor: pointer;
+
+    background: none;
+
+    display: flex;
+    align-items: center;
+}
+
+.searchBtn img {
+    text-align: center;
+    height: 1.8em;
+}
+
+/* Mobile breakpoint */
+@media only screen and (max-width: 600px) {
+    form {
+        width: 90%;
+        margin-bottom: 0;
+    }
+}
