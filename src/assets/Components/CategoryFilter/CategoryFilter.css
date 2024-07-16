@@ -1,21 +1,21 @@
 filter {
     outline: 1px solid gray;
-    padding: 2em;
+    padding: 2rem;
     box-sizing: border-box;
 
-    width: 20em;
-    height: 20em;
+    width: 20rem;
+    height: 25rem;
 
     border-radius: 1rem;
 }
 
 .title {
-    font-size: 1.25em;
-    padding-bottom: 1em;
+    font-size: 1.25rem;
+    padding-bottom: 1rem;
 }
 
 #filters {
     display: flex;
     flex-direction: column;
-    gap: 0.5em;
+    gap: 0.5rem;
 }

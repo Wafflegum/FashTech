@@ -7,21 +7,36 @@
     padding: 2em;
     box-sizing: border-box;
 
-    font-size: 2rem;
-    font-weight: 500;
-
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.banner .caption {
-    width: 50%;
-}
-
 #fashion {
     background: #b2dfdb;
-    color: white;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.caption {
+    font-size: 1.45rem;
+    font-weight: 500;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+}
+
+.caption .hero-title {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.caption .hero-description {
+    opacity: 0.8;
+}
+
+.banner .caption {
+    width: 50%;
 }
 
 #footer {
